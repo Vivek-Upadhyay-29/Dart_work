@@ -1,19 +1,12 @@
 void main() {
-  final cookie = Cookie('Circle', 23);
+  print(Constants.lord);
+  print(Constants.lord2);
 }
 
-class Cookie {
-  String shape;
-  double size;
-  Cookie(this.shape, this.size) {
-    baking();
+class Constants {
+  Constants() {
+    print('Ram Ram Bhaiyo');
   }
-
-  void baking() {
-    print('Cookie of shape $shape and the $size is been printed');
-  }
-
-  bool isCooling() {
-    return false;
-  }
+  static String lord = 'Laxman';
+  static String lord2 = 'Indra';
 }
